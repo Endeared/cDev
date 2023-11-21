@@ -4,6 +4,40 @@
 
 using namespace std;
 
+struct PlayerPublic {
+	int x, y;
+	int speed;
+
+	void setX(int thisX) {
+		this->x = thisX;
+	}
+
+	void setY(int thisY) {
+		this->y = thisY;
+	}
+
+	void setSpeed(int thisSpeed) {
+		this->speed = thisSpeed;
+	}
+
+	int getX() {
+		return this->x;
+	}
+
+	int getY() {
+		return this->y;
+	}
+
+	int getSpeed() {
+		return this->speed;
+	}
+
+	void Move(int xa, int ya) {
+		this->x += xa;
+		this->y += ya;
+	}
+};
+
 class Player {
 	int x, y;
 	int speed;

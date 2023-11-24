@@ -13,33 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="proc">
-      <UniqueIdentifier>{01b60888-84b6-4c9b-aa17-2e82c628d801}</UniqueIdentifier>
-    </Filter>
     <Filter Include="mem">
-      <UniqueIdentifier>{82b25af8-2031-46cd-8d5c-7dc4e76762ae}</UniqueIdentifier>
+      <UniqueIdentifier>{1a0adb31-7c77-4262-b2b2-f6944b3a2ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proc">
+      <UniqueIdentifier>{73dae641-0072-4bb8-9563-0d9a12293ae4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AssaultCubePt1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="proc.cpp">
-      <Filter>proc</Filter>
-    </ClCompile>
-    <ClCompile Include="mem.cpp">
-      <Filter>mem</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="proc.h">
-      <Filter>proc</Filter>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="mem.h">
       <Filter>mem</Filter>
     </ClInclude>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="proc.h">
+      <Filter>proc</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "proc.h"
 
 // process ID in windows API is DWORD
